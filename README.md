@@ -1,5 +1,6 @@
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/cmjchrisjones/dockersslcertificategener8or)
+![Docker Stars](https://img.shields.io/docker/stars/cmjchrisjones/dockersslcertificategener8or)
 
 # What is this
 
