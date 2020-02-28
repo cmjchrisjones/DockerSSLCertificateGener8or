@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  certs:
+    image: cmjchrisjones/dockersslcertificategener8or
+    env_file:
+      - ./env/.env
+    volumes:
+      - ./certs/:/certs
