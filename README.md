@@ -16,19 +16,19 @@ Sure, its public over on my [GitHub Repo](https://github.com/cmjchrisjones/Docke
   - via Docker Run
     ```
     docker run -e PASSWORD=qqqq -e COMMON_NAME=elite -v ${PWD}/certs:/certs/ cmjchrisjones/dockersslcertificategener8or
-    ```
+      ```
   - via Docker Compose
-```
-        version: "3.7"
+    ```
+          version: "3.7"
 
-        services:
-          certs:
-            image: cmjchrisjones/dockersslcertificategener8or
-            env_file:
-              - ./env/.env
-            volumes:
-              - ./certs/:/certs
-```
+          services:
+            certs:
+              image: cmjchrisjones/dockersslcertificategener8or
+              env_file:
+                - ./env/.env
+              volumes:
+                - ./certs/:/certs
+    ```
 
 - MAC
   - TBC
